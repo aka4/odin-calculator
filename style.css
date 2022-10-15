@@ -1,0 +1,64 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 260px;
+}
+
+#numberbuttons {
+    display: grid;
+    height: 200px;
+    width: 200px;
+    gap: 10px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+}
+
+#equals {
+    color: brown;
+}
+#buttonsmain {
+    display: flex;
+    gap: 10px;
+}
+
+#operators {
+    display: grid;
+    gap: 10px;
+    width: 50px;
+}
+
+.oper {
+    color: brown;
+}
+
+#actions {
+    width: 260px;
+    display: flex;
+    gap: 10px;
+}
+
+#numdisplay {
+    background-color: lightgray;
+    width: 236px;
+    text-align: end;
+    font-size: 32px;
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+    border-top: 0px;
+}
+
+#tempdisplay {
+    background-color: lightgray;
+    width: 236px;
+    text-align: end;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    padding: 10px;
+    border: 2px solid black;
+    border-bottom: 0px;
+}
